@@ -96,3 +96,4 @@ yarn test
    - **config.js** reads the .env file and returns a js object that can be used easily in the project.
   
 - Tests are divided into unit and integration tests.
+- All logs will be written to logs directory in the project root. logs is added to gitignore.
