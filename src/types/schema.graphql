@@ -1,0 +1,9 @@
+input User {
+    username: String
+    password: String
+}
+
+type Query {
+    properties(city: String): [Listing!]!
+    login(user: User): String
+}
